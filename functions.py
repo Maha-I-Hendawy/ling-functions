@@ -1,10 +1,39 @@
+# Affixes
+
 prefixes = ['non', 'omni', 'post', 'pre', 'pro', 're', 'un', 'im', 'dis', 'ab', 'ir', 'mis', 'anti']
 
 suffixes = ['able', 'less', 'ful', 'ment', 'er', 'est', 'ed', 'tion', 's', 'ship', 'ly', 'ness']
 
-pronous = ['I', 'you', 'he', 'she', 'it', 'we', 'they']
 
-possessive_pronous = ['my', 'your', 'his', 'her', 'our', 'their']
+possessive_determiners = ['my', 'your', 'his', 'its', 'her', 'our', 'their']
+
+# Pronouns:
+
+# Personal Pronouns  
+
+subject_pronouns = ['I', 'you', 'he', 'she', 'it', 'we', 'they']  
+
+object_pronouns = ['me', 'you', 'him', 'her', 'it', 'us', 'them']
+
+# Reflexive Pronouns 
+
+reflexive_pronouns = ['myself', 'yourself', 'himself', 'herself', 'itself', 'ourselves', 'themselves']
+
+# Possessive Pronouns 
+
+possessive_pronouns = ['mine', 'yours', 'his', 'hers', 'its', 'ours', 'theirs']
+
+# Interrogrative Pronouns 
+
+interrogrative_pronouns = ['who', 'whom', 'what', 'whose', 'which']
+
+# Demonstrative Pronouns  
+
+demonstrave_pronouns = ['this', 'that', 'these', 'those']
+
+# Indefinite Pronouns 
+
+indefinite_pronouns = ['all', 'another', 'any', 'anybody', 'anyone', 'both', 'each', 'either', 'everybody', 'everyone', 'few', 'many', 'most', 'neither', 'nobody', 'none', 'no one', 'one', 'other', 'several', 'some', 'somebody', 'someone', 'such']
 
 
 
