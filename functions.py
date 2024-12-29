@@ -35,6 +35,60 @@ demonstrave_pronouns = ['this', 'that', 'these', 'those']
 
 indefinite_pronouns = ['all', 'another', 'any', 'anybody', 'anyone', 'both', 'each', 'either', 'everybody', 'everyone', 'few', 'many', 'most', 'neither', 'nobody', 'none', 'no one', 'one', 'other', 'several', 'some', 'somebody', 'someone', 'such']
 
+# Adjectives:
+
+adjective_endings = ['ful', 'ous', 'y', 'less', 'al', 'ic', 'ish']
+
+
+Determiners:
+
+definite_articles = ['the'] 
+indefintie_articles = ['a', 'an']
+demonstrative_determiners = ['this', 'that', 'these', 'those']
+interrogative_determiners = ['who', 'whose', 'which']
+possessive_determiners = ['my', 'your', 'his', 'her', 'its', 'our', 'their']
+
+# Verbs:
+
+verb_to_be_present = ["am", "'m", "is", "'s", "are", "'re"]
+
+verb_to_be_past = ['was', 'were']
+
+verb_to_have_present = ["have", "has", "'ve", "'s"]
+
+verb_to_have_past = ['had']
+
+# verb endings:
+
+present = ['s', 'es', 'ies'] 
+
+past = ['d', 'ed', 'ied']
+
+# Adverbs:
+
+adverb_endings = ['ly']
+
+# Prepositions:
+
+ 
+prep_of_time = ['in', 'on', 'at', 'past', 'during', 'by', 'before', 'until']
+
+prep_of_place = ['under', 'underneath', 'over', 'inside', 'beside', 'in', 'in front of', 'on top of', 'in the middle of']
+
+prep_of_direction = ['after', 'down', 'along', 'through', 'towards', 'past', 'away from', 'out of']
+
+# Conjunctions:
+
+conjunctions = ['and', 'or', 'but']
+
+# Interjections:
+
+interjections = ['oh', 'uh', 'huh', 'wow', 'yuck', 'yum']
+
+punctuation = [',', ';', ':', '!', '?', '.']
+
+
+
 
 
 
@@ -73,6 +127,12 @@ def find_pronoun(words):
 			print(f"({w}, 'Possive Pronoun')")
 		else:
 			print(w)
+
+
+
+
+
+
 
 
 
