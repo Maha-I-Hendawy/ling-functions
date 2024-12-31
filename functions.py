@@ -121,9 +121,9 @@ def find_suffix(words):
 
 def find_pronoun(words):
 	for w in words:
-		if w in pronous:
+		if w in subject_pronouns:
 			print(f"({w}, 'Pronoun')")
-		elif w in possessive_pronous:
+		elif w in possessive_pronouns:
 			print(f"({w}, 'Possive Pronoun')")
 		else:
 			print(w)
