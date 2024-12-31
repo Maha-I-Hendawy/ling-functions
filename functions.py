@@ -40,7 +40,7 @@ indefinite_pronouns = ['all', 'another', 'any', 'anybody', 'anyone', 'both', 'ea
 adjective_endings = ['ful', 'ous', 'y', 'less', 'al', 'ic', 'ish']
 
 
-Determiners:
+# Determiners:
 
 definite_articles = ['the'] 
 indefintie_articles = ['a', 'an']

@@ -1,23 +1,16 @@
 from functions import clean_words, find_prefix, find_suffix, find_pronoun
-from text import Text, Person, Customer
+from text import Text
+from flask import Flask, render_template, request, redirect, url_for
 
-text = input("Enter text here")
+app = Flask(__name__)
 
-t = Text(text)
-
-words = [w for w in text.split()]
-
-sentences = [s for s in text.split('.')]
-
-
-clean_words(words)
-
-find_prefix(words)
-
-find_suffix(words)
-
-find_pronoun(words)
-
+@app.route('/', methods=['GET', 'POST'])
+def home():
+	if request.method == 'POST':
+		text = request.form['text']
+		t = Text(text)
+		clean_words(t.words())
+	return render_template("home.html")
 
 
 
