@@ -1,4 +1,4 @@
-# Todolist App
+# ling-functions App
 
  ## Overview
 These are functions made with vanilla Python to tokenize tests into words and sentences
