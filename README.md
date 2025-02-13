@@ -74,6 +74,8 @@ This application is implemented with:
 
 ## References
    - Python:
+   - Flask:
+   - Flask-sqlchemy
      
  
 
