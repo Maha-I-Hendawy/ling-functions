@@ -10,24 +10,27 @@ These are functions made with vanilla Python to tokenize tests into words and se
 - Clean words from punctuation
 
 
-  
+## Technologies Used
+
 This application is implemented with:
 
-## Back-end Technologies:
+### Back-end Technologies:
 
 - Python
 - Flask
 - Flask-sqlalchemy
 
-## Front-end Technologies:
+### Front-end Technologies:
 
 - HTML
 - CSS
 - Bootstrap
 
+<!--
 ## Challenges
 - Challenge:
 - Challenge: 
+-->
 
 ## Future implementations 
 
@@ -46,7 +49,7 @@ This application is implemented with:
 
 ### Installing dependencies
 
-#### Setting up the development environment:
+     Setting up the development environment:
 
             mkdir project
             cd project
@@ -55,7 +58,7 @@ This application is implemented with:
             pip install flask flask-sqlchemy
        
   ### Running the project
-  #### To run the project:
+    To run the project:
            flask run
 
 ## Using the project
@@ -73,9 +76,12 @@ This application is implemented with:
      - System Design
 
 ## References
-   - Python:
-   - Flask:
-   - Flask-sqlchemy
+   - [Python](https://www.python.org/)
+   - [Flask](https://flask.palletsprojects.com/en/stable/)
+   - [Flask-sqlchemy](https://flask-sqlalchemy.readthedocs.io/en/stable/)
+
+## Available Documentation
+   - [ling-functions Reference Document]() 
      
  
 
